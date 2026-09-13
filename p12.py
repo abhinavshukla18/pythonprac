@@ -11,9 +11,21 @@
 
 
 #example code for kwargs:-
-def profile(**kwargs):
-    print(kwargs) # kwargs is a dict
-    for key, value in kwargs.items():
-        print(key, "=", value)
+#def profile(**kwargs):
+#    print(kwargs) # kwargs is a dict
+#    for key, value in kwargs.items():
+#        print(key, "=", value)
+#
+#profile(name="Amit", age=21, city="Varanasi")
 
-profile(name="Amit", age=21, city="Varanasi")
+
+#PRACTICE PROBLEMS:-
+
+#1. Multiply Everything
+def multiply(*args):
+    product = 1
+    for num in args:
+        product = product * num
+    return product
+
+print(multiply(4,5,6,7,))
