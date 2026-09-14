@@ -22,10 +22,27 @@
 #PRACTICE PROBLEMS:-
 
 #1. Multiply Everything
-def multiply(*args):
-    product = 1
-    for num in args:
-        product = product * num
-    return product
+#def multiply(*args):
+#    product = 1
+#    for num in args:
+#        product = product * num
+#    return product
+#
+#print(multiply(4,5,6,7,))
 
-print(multiply(4,5,6,7,))
+#2. Count the Arguments
+#def how_many(*args):
+#    return len(args)
+#
+#print(how_many(3,2,12,32,41,1))
+
+
+#3. Greeting with kwargs
+#def describe(**kwargs):
+#    for key, value in kwargs.items():
+#        print(f"{key} is {value}")
+#
+#describe(name="amit")
+
+
+#yeah
