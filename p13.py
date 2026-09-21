@@ -63,4 +63,3 @@ clean = list(map(lambda n: n.replace("$", ""), raw))
 print(clean)
 print(above)
 """
-
